@@ -14,7 +14,6 @@ class Anagram
       if test_word == new_word
       #   test_word.join
       
-    end  
   end
     # binding.pry
     
