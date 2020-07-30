@@ -11,7 +11,7 @@ class Anagram
   def match(arr)
     new_word = self.split(//).sort
     arr.map{|test_word| test_word.split(//).sort
-      # if t == new_word
+      if == new_word
       #   test_word.join
       
     end  
