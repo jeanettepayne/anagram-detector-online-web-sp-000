@@ -9,6 +9,7 @@ class Anagram
   end
   
   def match(arr)
+    arr.split(//).sort
     binding.pry
     
   end
