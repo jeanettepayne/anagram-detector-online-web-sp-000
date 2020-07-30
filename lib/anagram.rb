@@ -14,7 +14,6 @@ class Anagram
       # == self.to_s.split(//).sort
       
       
-    end
   end
     # binding.pry
     
