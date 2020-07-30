@@ -9,8 +9,9 @@ class Anagram
   end
   
   def match(arr)
+    new_word = self.split(//).sort
     arr.map do |test_word| 
-      if test_word.split(//).sort == self.split(//).sort
+      if test_word.split(//).sort == new_word
         test_word.join
       
     end  
