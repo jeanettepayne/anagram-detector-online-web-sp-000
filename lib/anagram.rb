@@ -10,6 +10,11 @@ class Anagram
   
   def match(arr)
     arr.map{|test_word| test_word.split(//).sort}
+    if test_word == self.split(//).sort 
+      true 
+    else
+      false 
+    end
     binding.pry
     
   end
