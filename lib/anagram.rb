@@ -14,7 +14,7 @@ class Anagram
     new_arr.map{|test_word| test_word.split(//).sort == new_word}
         
       
-  end
+
     # binding.pry
     
   end
