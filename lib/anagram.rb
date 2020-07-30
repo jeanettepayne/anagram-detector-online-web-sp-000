@@ -13,7 +13,7 @@ class Anagram
     if test_word.split(//).sort == self.to_s.split(//).sort
       true 
     else
-      false 
+      nil 
     end
   end
     # binding.pry
